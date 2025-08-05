@@ -1,0 +1,75 @@
+
+body {
+  background: #181a20;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.movie-card {
+  background: linear-gradient(135deg, #b3e0ff 80%, #e6f7ff 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  color: #222;
+  text-align: left;
+  transition: box-shadow 0.2s;
+}
+.movie-card:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+.movie-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.movie-header h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #ffd700;
+  letter-spacing: 1px;
+}
+.release-date {
+  font-size: 1rem;
+  color: #a0a0a0;
+  background: #23272f;
+  padding: 0.25rem 0.75rem;
+  border-radius: 8px;
+}
+.movie-meta {
+  margin-bottom: 1rem;
+}
+.movie-meta p {
+  margin: 0.25rem 0;
+}
+.director, .producer {
+  color: #7ecfff;
+}
+.movie-crawl {
+  margin-bottom: 1.5rem;
+}
+.movie-crawl blockquote {
+  background: #23272f;
+  border-left: 4px solid #ffd700;
+  padding: 1rem;
+  margin: 0.5rem 0 0 0;
+  font-style: italic;
+  color: #e0e0e0;
+}
+.character-select {
+  margin-bottom: 1.5rem;
+}
+.character-select label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+.character-select select {
+  background: #23272f;
+  color: #ffd700;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
